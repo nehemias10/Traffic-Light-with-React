@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 //create your first component
-function Home() {
+export function Home() {
 	const [red, setRed] = useState(false);
 	const [yellow, setYellow] = useState(false);
 	const [green, setGreen] = useState(false);
@@ -41,4 +41,3 @@ function Home() {
 		</div>
 	);
 }
-export default Home;
